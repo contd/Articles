@@ -1,0 +1,12 @@
+[Unit]
+Description=Jason Articles Go App
+Requires=docker.service
+After=docker.service
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/docker start goarticles
+ExecStop=/usr/bin/docker stop goarticles
+
+[Install]
+WantedBy=default.target
