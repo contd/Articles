@@ -3,8 +3,11 @@
 *.dll
 *.so
 *.dylib
+<<<<<<< HEAD
 *.tmp
 *.swp
+=======
+>>>>>>> b36a979f41a694473177e037131d5422d3dbd6b4
 
 # Test binary, build with `go test -c`
 *.test
@@ -14,8 +17,11 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+<<<<<<< HEAD
 
 # Others
 .directory
 .DS_Store
 ref/
+=======
+>>>>>>> b36a979f41a694473177e037131d5422d3dbd6b4
